@@ -1,0 +1,31 @@
+
+{
+    "nannies": [
+        {
+            "id": 101,
+            "name": "Ana Sofia (PASA)",
+            "zone": "Guadalajara",
+            "career": "Pedagogía",
+            "courses": ["Primeros Auxilios", "Crianza respetuosa"],
+            "qualities": ["Paciente", "Puntual"],
+            "availability": true
+        },
+        {
+            "id": 102,
+            "name": "Beto (FALLA)",
+            "zone": "Tonalá", 
+            "career": "Psicología", 
+            "courses": ["Crianza respetuosa"], 
+            "qualities": ["Puntual"], 
+            "availability": false 
+        }
+    ],
+
+    
+    "address": {
+        "postal_code": "44220" 
+    },
+    "career": "Pedagogía",
+    "courses": ["Primeros Auxilios"], 
+    "availability": "disponible" 
+}
