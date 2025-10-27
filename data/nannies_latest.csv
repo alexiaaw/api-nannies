@@ -1,0 +1,66 @@
+id,name,qualities,courses,career,zone,availability
+1,,"['paciente', 'carinosa', 'observadora', 'proactiva', 'ludica']","['psicologia_infantil', 'cuidado_infantil', 'cuidado_infantil']","['psicologia', 'pedagogia', 'pediatria']",desconocido,False
+2,,"['empatica', 'asertiva', 'flexible']","['educacion_y_aprendizaje', 'nutricion_y_alimentacion']","['psicologia', 'psicologia']",guadalajara,True
+3,,"['empatica', 'paciente', 'carinosa', 'observadora', 'flexible', 'ludica', 'bilingue']","['desarrollo_infantil', 'cuidado_infantil', 'desarrollo_infantil', 'lactancia_y_cuidado_bebes']","['nutricion', 'pedagogia', 'pediatria']",guadalajara,True
+4,,"['empatica', 'paciente', 'observadora', 'asertiva', 'proactiva', 'flexible']","['lactancia_y_cuidado_bebes', 'psicologia_infantil', 'desarrollo_infantil', 'comunicacion_y_lenguaje']","['psicologia', 'pediatria']",guadalajara,True
+5,,"['creativa', 'observadora', 'ludica']","['cuidado_infantil', 'disciplina_y_comportamiento', 'inclusion_y_diversidad']",['psicologia'],guadalajara,True
+6,,"['empatica', 'creativa', 'paciente', 'carinosa', 'proactiva', 'bilingue']","['desarrollo_infantil', 'psicologia_infantil', 'lactancia_y_cuidado_bebes', 'lactancia_y_cuidado_bebes']","['enfermeria', 'psicologia', 'pediatria']",zapopan,True
+7,,['observadora'],"['lactancia_y_cuidado_bebes', 'educacion_y_aprendizaje']","['nutricion', 'enfermeria', 'pedagogia']",zapopan,True
+8,,"['creativa', 'observadora', 'ludica', 'bilingue']","['inclusion_y_diversidad', 'primeros_auxilios', 'primeros_auxilios', 'comunicacion_y_lenguaje']",['terapia_psicomotriz'],guadalajara,True
+9,,"['carinosa', 'flexible', 'bilingue']","['desarrollo_infantil', 'desarrollo_infantil']",['pedagogia'],guadalajara,True
+10,,"['empatica', 'paciente', 'observadora', 'asertiva', 'flexible', 'bilingue']","['cuidado_infantil', 'desarrollo_infantil', 'educacion_y_aprendizaje', 'disciplina_y_comportamiento']","['psicologia', 'enfermeria', 'pedagogia']",guadalajara,True
+11,,"['empatica', 'asertiva']","['psicologia_infantil', 'lactancia_y_cuidado_bebes', 'psicologia_infantil', 'cuidado_infantil']","['nutricion', 'psicologia', 'trabajo_social']",guadalajara,True
+12,,['ludica'],"['lactancia_y_cuidado_bebes', 'inclusion_y_diversidad', 'primeros_auxilios', 'disciplina_y_comportamiento']","['psicopedagogia', 'pediatria']",guadalajara,True
+13,,"['empatica', 'paciente', 'carinosa']","['comunicacion_y_lenguaje', 'psicologia_infantil', 'lactancia_y_cuidado_bebes', 'primeros_auxilios']","['psicopedagogia', 'pediatria']",guadalajara,True
+14,,"['creativa', 'asertiva', 'proactiva', 'flexible']","['nutricion_y_alimentacion', 'nutricion_y_alimentacion', 'nutricion_y_alimentacion']","['psicologia', 'pediatria', 'trabajo_social']",guadalajara,True
+15,,"['creativa', 'asertiva', 'flexible']",['comunicacion_y_lenguaje'],"['enfermeria', 'psicologia']",guadalajara,True
+16,,"['paciente', 'observadora', 'asertiva', 'proactiva']","['inclusion_y_diversidad', 'primeros_auxilios', 'comunicacion_y_lenguaje']","['psicologia', 'enfermeria', 'pediatria']",guadalajara,True
+17,,['creativa'],"['educacion_y_aprendizaje', 'primeros_auxilios']","['nutricion', 'psicologia', 'pediatria']",guadalajara,True
+18,,"['empatica', 'creativa', 'carinosa', 'asertiva', 'flexible', 'ludica', 'bilingue']",['disciplina_y_comportamiento'],['pediatria'],guadalajara,True
+19,,['flexible'],"['educacion_y_aprendizaje', 'desarrollo_infantil']","['trabajo_social', 'terapia_psicomotriz', 'psicologia']",guadalajara,True
+20,,"['observadora', 'ludica']","['lactancia_y_cuidado_bebes', 'lactancia_y_cuidado_bebes', 'cuidado_infantil', 'primeros_auxilios']",['trabajo_social'],guadalajara,True
+21,,"['empatica', 'carinosa', 'observadora', 'asertiva', 'flexible', 'bilingue']","['psicologia_infantil', 'lactancia_y_cuidado_bebes', 'desarrollo_infantil', 'nutricion_y_alimentacion']","['terapia_psicomotriz', 'psicopedagogia']",zapopan,True
+22,,"['creativa', 'bilingue']",['primeros_auxilios'],"['nutricion', 'enfermeria', 'terapia_psicomotriz']",guadalajara,True
+23,,"['carinosa', 'observadora', 'asertiva', 'proactiva', 'flexible', 'ludica']","['lactancia_y_cuidado_bebes', 'educacion_y_aprendizaje', 'disciplina_y_comportamiento']","['nutricion', 'pediatria', 'pedagogia']",guadalajara,True
+24,,"['asertiva', 'ludica', 'bilingue']",['disciplina_y_comportamiento'],"['trabajo_social', 'pedagogia', 'psicopedagogia']",guadalajara,True
+25,,"['empatica', 'paciente', 'carinosa', 'observadora']","['comunicacion_y_lenguaje', 'psicologia_infantil']",['pediatria'],guadalajara,True
+26,,"['empatica', 'carinosa', 'proactiva', 'flexible', 'ludica']",['inclusion_y_diversidad'],"['psicologia', 'enfermeria', 'terapia_psicomotriz']",guadalajara,True
+27,,"['creativa', 'carinosa', 'observadora', 'proactiva', 'ludica']","['lactancia_y_cuidado_bebes', 'cuidado_infantil', 'nutricion_y_alimentacion', 'comunicacion_y_lenguaje']",['psicologia'],guadalajara,True
+28,,"['ludica', 'bilingue']","['primeros_auxilios', 'educacion_y_aprendizaje']",['psicologia'],zapopan,True
+29,,"['paciente', 'proactiva', 'flexible', 'ludica']","['nutricion_y_alimentacion', 'lactancia_y_cuidado_bebes', 'psicologia_infantil']","['psicologia', 'pedagogia']",guadalajara,True
+30,,"['creativa', 'proactiva', 'ludica']",['cuidado_infantil'],['psicologia'],guadalajara,True
+31,,"['paciente', 'asertiva', 'ludica', 'bilingue']",['desarrollo_infantil'],"['nutricion', 'enfermeria']",guadalajara,True
+32,,['asertiva'],"['nutricion_y_alimentacion', 'comunicacion_y_lenguaje', 'nutricion_y_alimentacion', 'lactancia_y_cuidado_bebes']","['psicologia', 'enfermeria', 'trabajo_social']",tlaquepaque,True
+33,,"['empatica', 'carinosa', 'bilingue']","['desarrollo_infantil', 'nutricion_y_alimentacion', 'desarrollo_infantil', 'nutricion_y_alimentacion']","['pedagogia', 'psicopedagogia']",tlaquepaque,True
+34,,"['empatica', 'creativa', 'paciente', 'observadora', 'asertiva', 'proactiva', 'ludica']","['primeros_auxilios', 'psicologia_infantil']","['nutricion', 'terapia_psicomotriz', 'psicopedagogia']",guadalajara,True
+35,,"['empatica', 'creativa', 'paciente', 'carinosa', 'observadora', 'asertiva', 'proactiva']","['nutricion_y_alimentacion', 'nutricion_y_alimentacion', 'psicologia_infantil']",['terapia_psicomotriz'],guadalajara,True
+36,,"['empatica', 'creativa', 'paciente', 'ludica', 'bilingue']","['primeros_auxilios', 'nutricion_y_alimentacion']",['pedagogia'],tlaquepaque,True
+37,,"['creativa', 'carinosa', 'observadora']",['lactancia_y_cuidado_bebes'],"['terapia_psicomotriz', 'pediatria']",guadalajara,True
+38,,"['creativa', 'carinosa']","['nutricion_y_alimentacion', 'primeros_auxilios']","['pediatria', 'pediatria']",guadalajara,True
+39,,"['empatica', 'flexible', 'ludica', 'bilingue']","['lactancia_y_cuidado_bebes', 'primeros_auxilios', 'lactancia_y_cuidado_bebes']",['psicologia'],guadalajara,True
+40,,"['paciente', 'observadora', 'proactiva', 'ludica', 'bilingue']","['lactancia_y_cuidado_bebes', 'comunicacion_y_lenguaje', 'disciplina_y_comportamiento']","['enfermeria', 'pediatria', 'psicologia']",guadalajara,True
+41,,"['empatica', 'observadora']","['educacion_y_aprendizaje', 'psicologia_infantil']","['terapia_psicomotriz', 'psicopedagogia']",guadalajara,True
+42,,"['creativa', 'paciente', 'observadora', 'asertiva', 'proactiva', 'ludica', 'bilingue']","['psicologia_infantil', 'disciplina_y_comportamiento']","['terapia_psicomotriz', 'psicopedagogia']",guadalajara,True
+43,,"['observadora', 'asertiva', 'proactiva', 'flexible', 'bilingue']","['cuidado_infantil', 'nutricion_y_alimentacion']",['enfermeria'],guadalajara,True
+44,,"['paciente', 'bilingue']","['primeros_auxilios', 'desarrollo_infantil']",['pediatria'],guadalajara,True
+45,,['carinosa'],"['inclusion_y_diversidad', 'disciplina_y_comportamiento']","['nutricion', 'terapia_psicomotriz', 'psicologia']",guadalajara,True
+46,,"['paciente', 'asertiva', 'ludica']","['primeros_auxilios', 'psicologia_infantil']",['terapia_psicomotriz'],guadalajara,True
+47,,"['observadora', 'proactiva', 'bilingue']","['desarrollo_infantil', 'educacion_y_aprendizaje', 'nutricion_y_alimentacion']",['nutricion'],guadalajara,True
+48,,['creativa'],"['nutricion_y_alimentacion', 'cuidado_infantil', 'educacion_y_aprendizaje', 'comunicacion_y_lenguaje']","['pediatria', 'pedagogia', 'psicologia']",guadalajara,True
+49,,['paciente'],"['primeros_auxilios', 'desarrollo_infantil', 'nutricion_y_alimentacion', 'inclusion_y_diversidad']",['nutricion'],tlaquepaque,True
+50,,['observadora'],"['comunicacion_y_lenguaje', 'educacion_y_aprendizaje', 'educacion_y_aprendizaje']","['enfermeria', 'pedagogia']",guadalajara,True
+51,,"['empatica', 'creativa', 'paciente', 'observadora', 'asertiva', 'ludica', 'bilingue']",['educacion_y_aprendizaje'],"['enfermeria', 'psicologia']",guadalajara,True
+52,,"['paciente', 'carinosa', 'observadora', 'flexible']","['lactancia_y_cuidado_bebes', 'disciplina_y_comportamiento', 'comunicacion_y_lenguaje']","['nutricion', 'trabajo_social']",guadalajara,True
+53,,"['creativa', 'asertiva', 'proactiva', 'flexible', 'ludica', 'bilingue']",['primeros_auxilios'],['nutricion'],guadalajara,True
+54,,"['creativa', 'paciente']","['cuidado_infantil', 'primeros_auxilios', 'educacion_y_aprendizaje', 'nutricion_y_alimentacion']","['nutricion', 'enfermeria', 'terapia_psicomotriz']",tlaquepaque,True
+55,,"['empatica', 'carinosa', 'observadora', 'flexible']","['inclusion_y_diversidad', 'primeros_auxilios', 'comunicacion_y_lenguaje', 'psicologia_infantil']",['trabajo_social'],guadalajara,True
+56,,"['empatica', 'flexible', 'ludica', 'bilingue']","['primeros_auxilios', 'desarrollo_infantil', 'primeros_auxilios', 'psicologia_infantil']","['nutricion', 'enfermeria', 'psicologia']",guadalajara,True
+57,,"['empatica', 'creativa', 'carinosa', 'asertiva', 'proactiva', 'ludica']","['cuidado_infantil', 'nutricion_y_alimentacion', 'comunicacion_y_lenguaje']","['terapia_psicomotriz', 'psicopedagogia']",guadalajara,True
+58,,"['creativa', 'paciente', 'observadora', 'proactiva', 'bilingue']","['psicologia_infantil', 'cuidado_infantil']","['psicologia', 'psicologia', 'pediatria']",tlaquepaque,True
+59,,"['empatica', 'paciente', 'carinosa', 'asertiva', 'flexible', 'ludica']","['disciplina_y_comportamiento', 'primeros_auxilios', 'educacion_y_aprendizaje', 'primeros_auxilios']","['nutricion', 'enfermeria', 'psicopedagogia']",zapopan,True
+60,,['flexible'],"['disciplina_y_comportamiento', 'psicologia_infantil', 'disciplina_y_comportamiento']","['terapia_psicomotriz', 'pediatria']",guadalajara,True
+61,,"['creativa', 'paciente', 'observadora', 'asertiva', 'flexible', 'ludica', 'bilingue']","['lactancia_y_cuidado_bebes', 'educacion_y_aprendizaje', 'educacion_y_aprendizaje']","['psicologia', 'enfermeria', 'psicopedagogia']",tlaquepaque,True
+62,,"['creativa', 'paciente', 'carinosa', 'observadora', 'asertiva', 'flexible']","['disciplina_y_comportamiento', 'educacion_y_aprendizaje']","['enfermeria', 'trabajo_social', 'psicologia']",guadalajara,True
+63,,"['empatica', 'creativa', 'paciente', 'asertiva', 'flexible']","['educacion_y_aprendizaje', 'psicologia_infantil', 'educacion_y_aprendizaje']","['pedagogia', 'psicopedagogia']",guadalajara,True
+64,,"['empatica', 'creativa', 'paciente', 'carinosa', 'asertiva', 'ludica']",['cuidado_infantil'],"['enfermeria', 'trabajo_social', 'psicologia']",guadalajara,True
+65,,"['empatica', 'paciente', 'carinosa', 'observadora', 'proactiva', 'flexible', 'ludica']","['nutricion_y_alimentacion', 'cuidado_infantil', 'lactancia_y_cuidado_bebes']",['terapia_psicomotriz'],guadalajara,True
