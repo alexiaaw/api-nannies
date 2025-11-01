@@ -20,10 +20,10 @@ trainer.train_or_load(df)
 
 # Definir filtros de prueba
 filters = {
-    "qualities": ["creativa", "asertiva"],
+    "qualities": ["proactiva", "asertiva"],
     "courses": ["primeros_auxilios"],
-    "career": ["nutricion"],
-    "zone": "guadalajara",
+    "career": ["terapia_psicomotriz"],
+    "zone": "Guadalajara",
     "availability": True
 }
 

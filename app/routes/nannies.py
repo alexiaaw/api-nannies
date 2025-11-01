@@ -58,10 +58,12 @@ def filter_nannies():
     """
     try:
         payload = request.get_json(force=True)
+        current_app.logger.info(">>> PAYLOAD RECIBIDO EN /filter: %s", payload)
         filters = validate_filter_payload(payload)  # Puede estar vacío
 
         # Cargar último dataset
         df = load_dataframe()
+        current_app.logger.info(">>> DataFrame cargado con %s registros", len(df))
         if df is None or df.empty:
             return jsonify({
                 "error": "no_data",
@@ -98,15 +100,19 @@ def filter_nannies():
         # -----------------
         # SCORING CON MODELO
         # -----------------
-        results = filterer.filter_and_score(df, filters)
+        response = filterer.filter_and_score(df, filters)
+        
+        current_app.logger.info(">>> Respuesta enviada: %s", response)
 
-        if not results:
-            current_app.logger.info("No se encontraron coincidencias para los filtros: %s", filters)
+        # Extraer solo los IDs de las niñeras encontradas
+        nanny_ids = [n["id"] for n in response["nannies"] if "id" in n]
 
+        current_app.logger.info(">>> IDs filtrados enviados a Laravel: %s", nanny_ids)
+        
         return jsonify({
-            "count": len(results),
             "filters_applied": filters,
-            "results": results
+            "count": len(nanny_ids),
+            "nanny_ids": nanny_ids
         }), 200
 
     except ValueError as e:
