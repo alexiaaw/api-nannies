@@ -20,9 +20,9 @@ trainer.train_or_load(df)
 
 # Definir filtros de prueba
 filters = {
-    "qualities": ["proactiva", "asertiva"],
-    "courses": ["primeros_auxilios"],
-    "career": ["terapia_psicomotriz"],
+    "qualities": ["disciplinada", "asertiva"],
+    "courses": ["teatro_infantil"],
+    "careers": ["astrofisica"],
     "zone": "Guadalajara",
     "availability": True
 }
@@ -34,8 +34,38 @@ results = filterer.filter_and_score(df, filters)
 print(f"Filtros aplicados: {filters}")
 print(f"Se encontraron {results['count']} niñeras:\n")
 
+# Calcular coincidencia real basada en los filtros
 for nanny in results["nannies"]:
-    nid = nanny.get("id")
-    name = nanny.get("name") or "Sin nombre"
-    score = nanny.get("score", 0) * 100  # porcentaje
-    print(f"ID: {nid} | Nombre: {name} | Coincidencia: {score:.2f}%")
+    coincidencias = 0
+    total_criterios = 0
+
+    # Comparar zone
+    total_criterios += 1
+    if nanny["zone"].strip().lower() == filters["zone"].strip().lower():
+        coincidencias += 1
+
+    # Comparar availability
+    total_criterios += 1
+    if nanny["availability"] == filters["availability"]:
+        coincidencias += 1
+
+    # Comparar qualities
+    if "qualities" in filters and filters["qualities"]:
+        total_criterios += 1
+        coincidencias += sum(q in nanny["qualities"] for q in filters["qualities"]) / len(filters["qualities"])
+
+    # Comparar courses
+    if "courses" in filters and filters["courses"]:
+        total_criterios += 1
+        coincidencias += sum(c in nanny["courses"] for c in filters["courses"]) / len(filters["courses"])
+
+    # Comparar careers
+    if "careers" in filters and filters["careers"]:
+        total_criterios += 1
+        coincidencias += sum(ca in nanny["career"] for ca in filters["careers"]) / len(filters["careers"])
+
+    # Calcular porcentaje final
+    porcentaje = (coincidencias / total_criterios) * 100
+
+    # Mostrar solo ID y porcentaje
+    print(f"ID: {nanny['id']} | Coincidencia real: {porcentaje:.2f}%")
