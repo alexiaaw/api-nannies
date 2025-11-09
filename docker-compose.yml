@@ -1,0 +1,47 @@
+version: '1'
+services:
+    flask:
+      build:
+        context: .
+        dockerfile: Dockerfile
+      restart: unless-stopped
+      tty: true
+      ports:
+        - 5000:5000
+      volumes:
+        - .:/var/www
+      depends_on:
+        - db-back
+      environment:
+        SERVICE_NAME: flask
+        SERVICE_TAGS: dev
+        FLASK_ENV: development
+      working_dir: /var/www
+      networks:
+        - app-network
+    db-back:
+      image: 'mariadb:10.9.4'
+      restart: unless-stopped
+      tty: true
+      ports:
+        - 3308:3306
+      environment:
+        MYSQL_DATABASE: "dappback"
+        MYSQL_ROOT_PASSWORD: "root"
+        SERVICE_TAGS: dev
+        SERVICE_NAME: mysql
+        LANG: C.UTF-8
+      volumes:
+        - 'dbdata:/var/lib/mysql/'
+        - './mysql/my.cnf:/etc/mysql/my.cnf'
+        - '/mnt/storage/backups/:/var/respaldo'
+      networks:
+        - app-network
+networks:
+  default:
+    name: nginx-proxy
+  app-network:
+    external: true
+volumes:
+  dbdata:
+    driver: local
