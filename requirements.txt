@@ -6,3 +6,5 @@ pandas
 pytest
 flask-cors
 gunicorn
+python-dotenv
+
