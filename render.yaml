@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: sweet-nanny-api
+    name: api-nannies
     env: docker
     plan: free
     region: oregon
