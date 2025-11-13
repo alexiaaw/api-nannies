@@ -15,6 +15,11 @@ def create_app():
     # registrar blueprints
     app.register_blueprint(nannies_bp, url_prefix="/api")
 
+     #ruta raíz para comprobar que la API está viva
+    @app.route("/")
+    def home():
+        return jsonify({"message": "API Nannies is running!"})
+
     # errores comunes
     @app.errorhandler(400)
     def bad_request(e):

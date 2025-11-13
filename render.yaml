@@ -6,9 +6,12 @@ services:
     region: oregon
     dockerfilePath: ./Dockerfile.prod
     autoDeploy: true
+
     envVars:
       - key: FLASK_ENV
         value: production
+      - key: FLASK_APP
+        value: run.py
       - key: NANNY_API_KEY
         sync: false
       - key: NANNY_MODEL_PATH
